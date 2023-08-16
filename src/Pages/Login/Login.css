@@ -1,0 +1,113 @@
+.flex-container {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+  /* background-color: yellow; */
+}
+
+.flex-item {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* .grid-item {
+  background-color: #ddd;
+  border: 1px solid #ccc;
+  padding: 20px;
+} */
+
+
+
+
+/* .grid-container {
+  display: grid;
+  width: 100%;
+  height: 100vh;
+  grid-template-columns: au;
+  background-color: yellow;
+  
+}
+
+.grid-item {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+} */
+
+.loginBg {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.Login-right-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  /* padding: 8% 0 0 10%; */
+  /* background-color: #F1F2F6; */
+  /* background-color: yellow; */
+  
+}
+
+.elements-container {
+  display: flex;
+  position: relative;
+  /* background-color: yellow; */
+  width: 500px;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+
+.img-thumbnail {
+  border: none;
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (max-width: 1280px) {
+  .flex-container {
+    flex-direction: column;
+    height: auto;
+    
+  }
+  .flex-item {
+    background-size: cover;
+    /* background-color: #ddd; */
+    text-align: center;
+    height: auto;
+    width: 100%;
+    
+  }
+  .loginBg {
+    position: relative;
+    height: 650px;
+    border-radius: 0px;
+  }
+  .Login-right-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+  }
+
+  .elements-container {
+    position: relative;
+    width: 100%;
+
+  }
+}

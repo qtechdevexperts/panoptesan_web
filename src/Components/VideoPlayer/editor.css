@@ -1,0 +1,317 @@
+body{
+  transition: background-color .3s ease, color .3s ease;
+}
+
+.file-drop{
+    width: 100%;
+    height: fit-content;
+    font-weight: bold;
+    font-size: large;
+}
+
+.file-drop > .file-drop-target{
+    transition: border-color .3s ease;
+    border: 0.2em solid #f04e26;
+    border-radius: 1em;
+    text-align: center;
+    padding: 8em 0em;
+    cursor: pointer;
+}
+
+.file-drop > .file-drop-target.file-drop-dragging-over-target{
+    border-color: #90ee90;
+    transition: border-color .3s ease;
+    color: #cacaca
+}
+
+.hidden{
+    display: none;
+}
+
+.toolBar{
+    padding: 1em;
+    margin: 2em;
+    text-align: center;
+    border-radius: 1em;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.toggle{
+  background-color:rgb(185, 185, 185);
+  color: yellow;
+  height: 2em;
+  width: 2em;
+  text-align: center;
+  line-height: 2em;
+  vertical-align: middle;
+  border-radius: 100em;
+  font-size: x-large;
+  z-index: 100;
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+  cursor: pointer;
+  transition: background-color .2s ease;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+     -moz-user-select: none; /* Old versions of Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
+          user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+
+}
+
+.toggle:hover{
+  transition: background-color .2s ease;
+  background-color:rgb(146, 146, 146);
+}
+
+/* Styling for Editing */
+.wrapper {
+    background-color: #ffffff;
+    width: 40%;
+    max-width: 70%;
+    padding: 1rem;
+    border-radius: 4px;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+
+  }
+  
+  .video {
+    width: 100%;
+    cursor: pointer;
+    border-radius: 1em;
+  }
+  
+  .playback {
+    position: relative;
+    margin-top: 1rem;
+    margin-left: 24px;
+    margin-right: 24px;
+    height: 10px;
+    background: #2f3b44;
+    margin-bottom: 1rem;
+    border-radius: 1em;
+  }
+  .playback .seekable {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(240, 240, 240);
+    cursor: pointer;
+  }
+  .playback .grabber {
+    position: absolute;
+    top: -4px;
+    bottom: -4px;
+    width: 18px;
+    border-radius: 2px;
+    z-index: 1;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .playback .grabber.start {
+    background: #a8d736;
+  }
+  .playback .grabber.end {
+    background: #fc4242;
+  }
+  .playback .grabber:hover {
+    transform: scaleY(1.4);
+  }
+  .playback .grabber svg {
+    /* user-drag: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none; */
+  }
+  .playback .progress {
+    background: #0072cf;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    cursor: pointer;
+    pointer-events: none;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+  .controls .player-controls button {
+    width: 34px;
+    margin: 0 0.125rem;
+  }
+  .controls .player-controls .play-control {
+    background: #2f3b44;
+    border: 0;
+    color: #a5b0b5;
+    padding: 0.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .controls .player-controls .play-control:hover {
+    background: #445562;
+  }
+  .controls .player-controls .play-control:active {
+    color: #ffffff;
+  }
+  .controls .player-controls .seek-start {
+    background: #2f3b44;
+    border: 0;
+    color: #a5b0b5;
+    padding: 0.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .controls .player-controls .seek-start:hover {
+    background: #445562;
+  }
+  .controls .player-controls .seek-start:active {
+    color: #ffffff;
+  }
+  .controls .player-controls .seek-end {
+    background: #2f3b44;
+    border: 0;
+    color: #a5b0b5;
+    padding: 0.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .controls .player-controls .seek-end:hover {
+    background: #445562;
+  }
+  .controls .player-controls .seek-end:active {
+    color: #ffffff;
+  }
+  .controls .settings-control {
+    background: #2f3b44;
+    border: 0;
+    color: #a5b0b5;
+    padding: 0.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .controls .settings-control:active {
+    color: #ffffff;
+  }
+  
+  .controls .settings-control:hover {
+    background: #445562;
+  }
+  .controls .trim-control {
+    background: #0072cf;
+    border: 0;
+    color: #fff;
+    padding: 0.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+  .controls .trim-control:hover {
+    background: #038eff;
+  }
+
+  .margined{
+    margin: 0em 0.3em;
+  }
+
+  .warning{
+    padding: 0.8em;
+    color: #da7f00;
+    background-color: #ffecd1;
+    border-radius: 0.3em;
+    border: 0.1em solid #f0ad4e;
+    margin: 1em;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .thumbnail{
+    width: 20%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    border: 0.2em solid black;
+    border-radius: 0.3em;
+  }
+
+  .marginVertical{
+    margin: 1.5em 0em;
+  }
+  .title-style{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    color: #1182BA !important;
+  }
+  .date{
+    color: #1182BA !important;
+  }
+  .card-body-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    padding: 15px;
+  }
+  .icons-style{
+    background: white;
+    padding: 5px;
+    border-radius: 5px;
+    z-index: 1;
+  }
+  .icon-color{
+    color : #007AB6 !important
+  }
+.makeStyles-iconContainer-22{
+    text-align: center !important;
+}
+/* Track */
+::-webkit-scrollbar {
+  width: 3px !important; /* width of the scrollbar */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; /* color of the scrollbar handle */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* color of the scrollbar handle on hover */
+}

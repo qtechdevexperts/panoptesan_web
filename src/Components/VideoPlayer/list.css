@@ -1,0 +1,138 @@
+.video-list-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+  /* background-color: yellow; */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.wrapper, .video {
+  z-index: 3;
+}
+
+.wrapper h1 {
+  color: black;
+}
+
+.video-card {
+  position: relative;
+  /* background-color: pink; */
+  width: 210px;
+  height: 180px;
+  padding: 0;
+  /* border-radius: 12px; */
+}
+
+
+.video-thumb {
+  height: 120px;
+  width: 210px;
+}
+
+.react-player video{
+  position: relative;
+  /* background-color: aqua; */
+  height: 150px;
+  padding: 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  z-index: 0;
+}
+
+.icons {
+  z-index: 1;
+}
+
+.card-body-content {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  background-color: #FFFFFF;
+  height: 60px;
+  margin: 0;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.card-body-content a {
+  font-size: 13px;
+}
+
+.card-body-content span {
+  font-size: 14px;
+}
+
+.modal-header-share {
+  /* background-color: green; */
+  /* opacity: 0.3; */
+  margin-top: 0;
+  padding-top: 10px;
+  padding-right: 10px;
+  z-index: 2;
+}
+
+.modal-body-customized {
+  position: relative;
+  /* background-color: seagreen; */
+  padding: 0;
+}
+
+.dailog-content {
+  /* background-color: pink; */
+  padding: 10px;
+}
+
+.modal-content {
+  position: relative;
+  width: 250px;
+  height: auto;
+  /* background-color: brown; */
+  margin: 0;
+  padding: 0;
+ border-radius: 15px;
+}
+
+.img-container {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  /* background-color: aqua; */
+  margin-top: -90px;
+  z-index: 0;
+  /* opacity: 0.5; */
+}
+
+.img-container .success-logo {
+  position: relative;
+  width: 100%;
+  /* background-color: black; */
+  margin: 0 auto 0 auto;
+  /* opacity: 0.5; */
+}
+
+.share {
+  /* background-color: yellow; */
+  font-family: Quicksand;
+  padding: 0;
+  margin-top: -28px;
+  /* opacity: 0.5; */
+  z-index: 3;
+}
+
+.share h4{
+  font-size: 25px;
+  font-weight: Bold;
+}
+
+.congratulations p{
+  font-size: 15px;
+  font-weight: light;
+}

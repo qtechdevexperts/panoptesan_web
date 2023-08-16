@@ -1,0 +1,42 @@
+.profile-video-title p{
+    color: black;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-bottom: 12px;
+    margin-left: -15px;
+    /* background-color: pink; */
+    position: relative;
+    width: 100%;
+}
+
+.section-container{
+    position: relative;
+    /* background-color: aqua; */
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.user-details {
+    /* background-color: yellow; */
+}
+
+.profile-info {
+    position: relative;
+    margin-left: -5px;
+    /* background-color: pink; */
+}
+
+.user-details-outer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: green; */
+    margin: 0;
+}
+
+.videos-section {
+    position: relative;
+    /* background-color: yellow; */
+    max-width: 100%;
+}

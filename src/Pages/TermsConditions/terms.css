@@ -1,0 +1,14 @@
+.archive-title p{
+    color: black;
+    font-size: 32px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.section-container{
+    position: relative;
+    /* background-color: green; */
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}

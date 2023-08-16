@@ -1,0 +1,346 @@
+.card {
+    position: relative;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    font-family: Arial;
+    border: none;
+    width: auto !important;
+}
+
+.card h1 {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.card p {
+    font-size: 12px;
+    font-weight: lighter;
+    color: #6C6C6C;
+    padding: 0;
+    margin: 0;
+}
+
+.card p span {
+    text-decoration: underline;
+    color: #007AB6;
+    font-weight: bold;
+}
+.login-text{
+    color: #ffffff !important;
+}
+.login-form {
+    position: relative;
+    width: 100%;
+    /* height: 100%; */
+    margin: 0;
+    padding: 0;
+    /* background-color: yellow; */
+}
+
+.text-field {
+    width: 100%;
+    /* background-color: green; */
+}
+
+#password-helper-text, #email-helper-text, #name-helper-text, #repeatPassword-helper-text {
+    font-size: 10px;
+}
+/* .email-box {
+    background-color: white;
+    border-radius: 25px;
+   
+} */
+
+
+.email-box input {
+    padding: 0;
+    margin: 0;
+    height: 45px;
+    width: 100%;
+    padding-left: 13px;
+    outline: none;
+    background-color: transparent;
+    border: none;
+}
+
+
+.password-box {
+    position: relative;
+    text-align: left;
+    font-size: 12px;
+    margin-top: 10px;
+    /* background-color: yellow; */
+    width: 100%;
+    margin-bottom: 5px;
+    /* background-color: white; */
+    border-radius: 25px;
+}
+
+/* .password-box label {
+    font-size: 12px;
+    color: #2C2C2C;
+    padding-bottom: 5px;
+} */
+
+.password-box div {
+    /* background-color: #ffff00; */
+    height: 45px;
+    
+    border: none;
+}
+/* .password-box input {
+    position: relative;
+    align-items: center;
+    height: 45px;
+    width: 95%;
+    border: none;
+    background-color: pink;
+    outline: none;
+} */
+
+.eyelogo {
+    position: relative;
+    background-color: #007AB6;
+}
+
+.remember-forgot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+    /* margin-bottom: 10px; */
+    /* padding-top: 15px; */
+    /* background-color: pink; */
+}
+
+/* .remember-forgot-pre {
+    margin-bottom: 10px;
+    background-color: #007AB6;
+} */
+
+.remember-forgot label, .forgotPassword {
+    font-size: 13px;
+}
+
+.rememberMe {
+    display: flex;
+    align-items: center;
+    /* background-color: yellow; */
+}
+
+.rememberMe input {
+    position: relative;
+    margin-right: 10px;
+    border: 5px solid #3CBBE5;
+}
+
+.remember-forgot p {
+    color: #007AB6;
+    font-weight: bold;
+}
+
+.linkbtn {
+    position: relative;
+    /* background-color: pink; */
+    max-width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    /* background-color: yellow; */
+    padding: 0px;
+    margin: 0;
+}
+
+.otp-inputs {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding: 12px;
+}
+
+
+.btn {
+    display: flex;
+    border: 1px solid black;
+    height: 35px;
+    /* margin: 5px 0px 5px 0px; */
+    justify-content: center;
+    align-items: center;
+    border-color: #6C6C6C;
+}
+
+.or {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    height: 20px;
+    font-size: 13px;
+    padding: 0;
+}
+
+.or div {
+    background-color: black;
+    width: 50%;
+    height: 1px;
+}
+
+
+.or p {
+    position: relative;
+    background-color: #F1F2F6;
+    width: 10%;
+    margin-top: -17px;
+    z-index: 1;
+}
+.btn-primary {
+    height: 35px;
+}
+
+.btn img {
+    padding-right: 10px;
+}
+
+.terms {
+    margin-bottom: 10px;
+}
+
+.terms input {
+    position: relative;
+    margin-right: 10px;
+    border: 5px solid #3CBBE5;
+}
+
+span {
+    color: #007AB6;
+    font-weight: bold;
+}
+
+.otp-box {
+    position: relative;
+    text-align: left;
+    font-size: 12px;
+    margin-top: -25px;
+    /* background-color: yellow; */
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.otp-input {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-size: 20px;
+    background-color: yellow;
+  }
+  
+  .otp-input input[type="password"] {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid #C1C1C1;
+    background-color: transparent;
+    margin-right: 5px;
+  }
+  
+  .otp-input input[type="password"]:focus {
+    outline: none;
+    border-bottom-color: #007bff;
+  }
+  
+  .otp-input input[type="password"]::-webkit-outer-spin-button,
+  .otp-input input[type="password"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  .otp-input input[type="password"]::placeholder {
+    color: #bbb;
+  }
+
+  .otp-input input[type="password"]::after {
+    content: "*";
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+    color: #333;
+    font-weight: bold;
+  }
+
+  .btn-primary {
+    background-color: #007AB6;
+  }
+
+  .headers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: pink; */
+    color: #FFFFFF;
+  }
+
+  .headers h1 {
+    margin: 10px;
+  }
+  
+  .headers div {
+    margin-bottom: 30px;
+  }
+
+  .input-labels {
+    color: #FFFFFF;
+    margin: 5px;
+    font-size: 12px;
+  }
+
+  .outer-container {
+    background-color: yellow;
+  }
+
+   .form-bg {
+    /* padding: 0;
+    padding-left: 5px;
+    padding-right: 5px; */
+    margin: 0;
+    width: 500px;
+    /* background-color: aqua; */
+   }
+
+    .logo-pos {
+        background-color: yellow;
+    }
+
+@media only screen and (max-width: 1280px) {
+    .card {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .login-form {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+  }

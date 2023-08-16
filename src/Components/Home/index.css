@@ -1,0 +1,126 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 20px;
+    padding-left: 26px;
+    padding-top: 15px;
+    padding-right: 12.5%;
+  }
+  
+.grid-inner-container {
+    background-color: gray;
+    color: white;
+    font-size: 24px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+  }
+
+.grid-shell {
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.grid-shell::-webkit-scrollbar {
+    display: none;
+}
+
+.grid-shell-title {
+    position: relative;
+    display: flex;
+    height: 7.5%;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: azure;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    /* padding-bottom: 20px; */
+}
+
+.grid-shell-title img {
+    height: 20px;
+    width: 20px;
+    margin-top: 5px;
+}
+
+.grid-shell-title p {
+    position: relative;
+    margin-top: -5px;
+    margin-left: 5px;
+    padding: 0;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.grid-inner-container-content {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.grid-inner-container-content-header {
+    position: relative;
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    height: 20%;
+    /* background-color: blue; */
+    /* border-bottom: 1px solid black; */
+}
+
+.grid-inner-container-content-header i {
+    position: relative;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.grid-inner-container-content-body {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60%;
+    /* background-color: blue; */
+    /* border-bottom: 1px solid black; */
+}
+
+.grid-inner-container-content-footer {
+    position: relative;
+    display: flex;
+    justify-content: start;
+    margin: auto;
+    width: 100%;
+    height: 20%;
+    /* background-color: blue; */
+    font-size: 17px;
+    padding-left: 10px;
+} 
+
+.video_component_click {
+    border: none;
+    padding: 0;
+}
+
+.section-container{
+    position: relative;
+    /* background-color: green; */
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.video-title p{
+    color: black;
+    font-size: 32px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,53 @@
+.payment-details {
+    background-color: yellow;
+}
+
+.card-element-container {
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    padding: 15px;
+    margin: 7px 0 7px 0; 
+    border: 1px solid rgb(182, 182, 182); 
+}
+
+.card-container {
+    position: relative;
+    width: 100%;
+    /* background-color: pink; */
+    margin-bottom: 20px;
+}
+
+.form-container {
+    /* background-color: yellow; */
+    width: 500px;
+}
+
+.form-container p {
+    font-size: 15px;
+    color: black;
+}
+
+.exp-cvc {
+    display: flex;
+    flex-direction: row;
+}
+
+.exp, .cvc {
+    position: relative;
+    width: 50%;
+}
+
+.exp {
+    padding-right: 10px;
+}
+
+.cvc {
+    padding-left: 10px;
+}
+
+.form-title p{
+    color: black;
+    font-size: 32px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}

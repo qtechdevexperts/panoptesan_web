@@ -1,0 +1,28 @@
+.menu-option {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-option-items {
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    padding-right: 65px;
+    margin-bottom: 7px;
+}
+
+.menu-option-items li:hover {
+    background-color: transparent;
+}
+
+.menu-option-items p {
+    font-size: 14px;
+    font-family: Quicksand;
+    font-weight: light;
+}
+
+.dropdown-menu {
+    background-color: aquamarine;
+    border-radius: 25px;
+}

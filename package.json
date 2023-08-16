@@ -1,0 +1,99 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "@ffmpeg/core": "^0.10.0",
+    "@ffmpeg/ffmpeg": "^0.10.1",
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
+    "@material-ui/lab": "^4.0.0-alpha.61",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.13.0",
+    "@mui/styles": "^5.4.2",
+    "@reduxjs/toolkit": "^1.6.0",
+    "@stripe/react-stripe-js": "^2.1.0",
+    "@stripe/stripe-js": "^1.54.0",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "axios": "^1.4.0",
+    "body-parser": "^1.20.0",
+    "bootstrap-icons": "^1.10.4",
+    "browserify": "^17.0.0",
+    "coi-serviceworker": "^0.1.6",
+    "cra-template": "1.2.0",
+    "debounce": "^1.2.1",
+    "dotenv": "^16.0.3",
+    "eslint": "^8.15.0",
+    "ffmpeg-on-progress": "^1.0.0",
+    "ffmpeg-progress-wrapper": "^2.0.1",
+    "firebase": "^9.21.0",
+    "formik": "^2.2.9",
+    "gh-pages": "^3.2.3",
+    "inobounce": "^0.2.0",
+    "js": "^0.1.0",
+    "loadash": "^1.0.0",
+    "localforage": "^1.10.0",
+    "lodash.debounce": "^4.0.8",
+    "lottie-web": "^5.9.4",
+    "match-sorter": "^6.3.1",
+    "mui-one-time-password-input": "^1.1.0",
+    "node": "^17.7.2",
+    "progress-bar-react-ui": "^1.0.2",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-file-drop": "^3.1.6",
+    "react-player": "^2.12.0",
+    "react-router-dom": "^6.11.0",
+    "react-scripts": "^5.0.1",
+    "react-share-social": "^0.1.55",
+    "react-toggle": "^4.1.3",
+    "react-video-editor": "^1.0.2",
+    "recharts": "^2.7.2",
+    "remotion": "^3.3.97",
+    "shaneFFMPEG": "git+https://github.com/Shane-Geary/shaneFFMPEG.git",
+    "sort-by": "^1.2.0",
+    "styled-components": "^5.3.5",
+    "tss-react": "^3.4.1",
+    "use-debounce": "^7.0.1",
+    "web-vitals": "^3.3.1",
+    "yup": "^1.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "start:dev": "env-cmd -f .env.development react-scripts start",
+    "start:prod": "env-cmd -f .env.production react-scripts start"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}

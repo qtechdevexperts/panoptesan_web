@@ -1,0 +1,118 @@
+
+.red{
+color: red;
+}
+
+.section-padding {
+    position: relative;
+    /* background-color: yellow; */
+    padding: 0;
+}
+
+.content {
+    /* background-color: aqua; */
+}
+
+.body-wrapper {
+    /* background-color: green; */
+    padding: 0;
+}
+
+.section-title {
+    position: relative;
+    width: 100%;
+    font-size: 30px;
+    font-family: Quicksand;
+    font-weight: bold;
+    /* background-color: pink; */
+    margin-bottom: 25px;
+}
+
+.content-col {
+    padding-right: 20px;
+}
+
+.field-array {
+    /* background-color: pink; */
+    padding-right: 10px;
+}
+
+.field-array-outer {
+    /* background-color: green; */
+}
+
+.col-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+
+.row label {
+    margin-bottom: 7px;
+}
+
+.modal-header {
+    /* background-color: green; */
+    /* opacity: 0.3; */
+    margin: 0;
+    padding-top: 10px;
+    padding-right: 10px;
+    z-index: 2;
+}
+
+.modal-body-customized {
+    position: relative;
+    /* background-color: seagreen; */
+    padding: 0;
+}
+
+.dailog-content {
+    /* background-color: pink; */
+    padding: 10px;
+}
+
+.modal-content {
+    position: relative;
+    width: 250px;
+    height: 200px;
+    /* background-color: brown; */
+    margin: 0;
+    padding: 0;
+   border-radius: 15px;
+}
+
+.img-container {
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    /* background-color: aqua; */
+    margin-top: -90px;
+    z-index: 0;
+    /* opacity: 0.5; */
+}
+
+.img-container .success-logo {
+    position: relative;
+    width: 100%;
+    /* background-color: black; */
+    margin: 0 auto 0 auto;
+    /* opacity: 0.5; */
+}
+
+.congratulations {
+    /* background-color: yellow; */
+    font-family: Quicksand;
+    padding: 0;
+}
+
+.congratulations h4{
+    font-size: 25px;
+    font-weight: Bold;
+ }
+
+ .congratulations p{
+    font-size: 15px;
+    font-weight: light;
+ }
